@@ -12,7 +12,7 @@ def hello_world():
     return "<p>Hello, World V3! Seee I am now successful!!!!!</p>"
 
 
-model_pickle = open("./artefacts/classifier.pkl", "rb")
+model_pickle = open("./classifier.pkl", "rb")
 clf = pickle.load(model_pickle)
 
 
